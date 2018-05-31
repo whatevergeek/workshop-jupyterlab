@@ -46,8 +46,18 @@ Just ensure you have a **Live Account** you can use for logging in.
 
 #### 8. Open the library in JupyterLab.
 ![](./assets/2018-05-25-20-44-50.png)
-> If you encounter an issue, inform the workshop coordinator (Paul) to clone the following library:
-> https://notebooks.azure.com/joepeter/libraries/workshop-jupyterlab
+> Note: Only do the following steps if you encounter the following issue (i.e. Internal Server Error):
+> ![](./assets/2018-05-31-19-14-57.png)  
+> ##### a. In the "Libraries" tab, delete the library (workshop-jupyter) you just created. You may do this by right clicking the library and hitting "Delete".
+> ##### b. Go to the following link: https://notebooks.azure.com/joepeter/libraries/workshop-jupyterlab    
+> ##### c. Click "Clone".    
+> ![](./assets/2018-05-31-19-20-45.png)
+> ##### d. In the Dialog Box, also click "Clone".     
+> ##### e. Go back to your "Libraries" tab. 
+> ##### f. Refresh the page. You should now be able to "Run in JupyterLab (a)" as per step 8.
+> 
+> For other issues, contact the workshop coordinator.
+> 
 
 #### 9. Once loaded, you should now see the JupyterLab interface.
 ![](./assets/2018-05-25-20-52-58.png)
